@@ -1,0 +1,20 @@
+#Define PI constant
+PI = 3.14
+
+# Prompt user for a diameter value
+diameter = float(input("Enter a value for the diamter: "))
+
+# Calculate the radius
+radius = diameter/2
+
+# Calculate the area
+area = PI*radius**2
+
+#Calculate the circumference
+circum = PI*radius
+
+#print area
+print("The area of the circle is: ", area, "cm sqaured" )
+
+#print circumference
+print("The circumference of the circle is: ", circum, "cm" )
